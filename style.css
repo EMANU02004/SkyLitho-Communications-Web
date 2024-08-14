@@ -21,12 +21,7 @@
   max-width: 100%;
 }
 
-.navbar a:hover {
-  background-color: #ade2e4;
-  width: 20%;
-  transition: none;
-  
-}
+
 
 .wrapper-main{
   width: 100%;

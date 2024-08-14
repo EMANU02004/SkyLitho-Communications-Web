@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    background-attachment: fixed;
+    background-color: antiquewhite;
+    display: block;
+    unicode-bidi: isolate;
+  }
+
+  img {
+    width: 100px;
+    height: 150px;
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    shape-image-threshold: 0.5;
+  
+    
+  }
