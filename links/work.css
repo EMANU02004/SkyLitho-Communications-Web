@@ -1,14 +1,15 @@
 * {
+
     box-sizing: border-box;
   }
 
   .container {
     background-attachment: fixed;
-    background-color: rgb(246, 244, 242);
+    background-color: rgb(254, 254, 254);
     display: block;
-    unicode-bidi: isolate;
+    margin-left: auto;
     padding: 2px;
-    justify-content: center;
+    margin: 0px;
   }
 
   img {
