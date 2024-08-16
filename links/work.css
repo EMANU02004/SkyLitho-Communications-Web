@@ -4,18 +4,17 @@
 
   .container {
     background-attachment: fixed;
-    background-color: antiquewhite;
+    background-color: rgb(246, 244, 242);
     display: block;
     unicode-bidi: isolate;
+    padding: 2px;
+    justify-content: center;
   }
 
   img {
-    width: 100px;
-    height: 150px;
-    
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 0px;
     shape-image-threshold: 0.5;
-  
-    
-  }
+   }
