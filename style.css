@@ -1,4 +1,10 @@
-* {margin: 0;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
 
 .navbar {
   width: 100%;
@@ -40,70 +46,40 @@
   font-size: 18cqi;
 }
 
-.contacts{
-  font-size: 18cqi;
-  padding: 50px;
-  text-align: center;
+#contact{
+  background-color: rgba(65, 151, 204, 0.5);
+  font-family: 'Times New Roman', Times, serif;
   float: none;
-  text-decoration: underline;
-  inline-size: none;
-  color: rgb(0, 0, 0);
   text-align: center;
-  height: fit-content;
-
+  padding: 10px 0;
 }
 
-
-footer{
-  background-color: #31b5da;
+footer .contact-links a{
+  margin: 20px;
+  font-size: 45px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  text-align: center;
-    
+  transition: 0.4s ease-out;
 }
 
-.social-media{
-  padding: 50px 30px 40px;
+.fa-linkedin{
+  color: #0077b5;
 }
 
-.fa {
-  padding:  20px;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  width: 35px;
-  height: fit-content;
+.fa-facebook{
+  color: rgb(39, 70, 245);
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
+.fa-youtube{
+  color: #ff0000;
 }
 
 .fa-whatsapp{
-  background: #25d366;
-  color: white;
+  color: #25d366;
 }
-  
 .fa-envelope{
-  background: #000000;
-  color: white;
+  color: #d93025;
 }
 
-
+footer .contact-links a:hover{
+  color: rgb(255, 255, 255);
+}
