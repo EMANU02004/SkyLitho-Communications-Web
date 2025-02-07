@@ -2,49 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>SkyLitho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>SkyLitho Communications</title>
 </head>
 <body>
-
-    <!--start navigation-->
-    <div class="navbar">
-        <a href="links/about.html">About</a> 
-        <a href="links/projects.html">Projects</a> 
-        <a href="machines/available.html">Buy/Sell</a> 
-        <a href="#">Contacts</a>
-      </div>
-    
-    <!--end navigation-->
-    <div class="wrapper-main">
-        <p>SKYLITHO</p>
-        
-    </div>    
-    
-    <main class="machines">
-        <div>
-            <h1>m</h1>
+  <header>
+    <h1>SKYLITHO COMMUNICATIONS</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="machines/available.html">Buy Machine</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Company</a>
+              <div class="dropdown-content">
+                <a href="about.html">About Us</a>
+                <a href="#"></a>
+              </div>  
+            </li>
+            <li><a href="machines/available.html">Sell Machine</a></li>
+            <li><a href="links/projects.html">Projects</a></li>
+        </ul>
+        <div class="search-container">
+          <input type="text" placeholder="Search.." class="search-bar">
+          <button type="submit" class="search-button">Search</button>
         </div>
-        
-    </main>
-        
-    
+    </nav>
+</header>
 
-<!--start footer-->
-<footer id="contact">
-    <div class="contact-links">
-      <a href="https://www.linkedin.com/in/joseph-masambu-7503b63a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a>
-      <a href="https://www.facebook.com/josephmmbwanga.masambu?mibextid=ZbWKwL" class="fa fa-facebook"></a>
-      <a href="https://youtube.com/@skylitho?si=WQScDHI3xR2qE_dp" class="fa fa-youtube"></a>
-      <a href="https://wa.link/9z1yzm" class="fa fa-whatsapp"></a>
-      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="fa fa-envelope"></a>
-    </div>       
-  </footer>
-    
-<!--end footer-->
+<section id="home">
+  <h2>Welcome..</h2>
+  <p>Find the best printing machines for sale or list your own machines for sale.</p>
+</section>
 
+<section id="products">
+  <h2>Featured Products</h2>
+  <div id="product-list">
+      <!-- Product items will be dynamically inserted here by JavaScript -->
+  </div>
+</section>
+    <!--start footer-->
+    <footer id="contact">
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/joseph-masambu-7503b63a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a>
+            <a href="https://www.facebook.com/josephmmbwanga.masambu?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+            <a href="https://youtube.com/@skylitho?si=WQScDHI3xR2qE_dp" class="fa fa-youtube"></a>
+            <a href="https://wa.link/9z1yzm" class="fa fa-whatsapp"></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="fa fa-envelope"></a>
+        </div>       
+    </footer>
+    <!--end footer-->
     
+    <script src="script.js"></script>
 </body>
 </html>
