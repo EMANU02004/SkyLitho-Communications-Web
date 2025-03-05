@@ -1,3 +1,7 @@
+.h1{
+    text-align: center;
+}
+
 /* Ensure all images are responsive */
 img {
     width: 100%; /* Ensures the image takes up the full width of its container */
